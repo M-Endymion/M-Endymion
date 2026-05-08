@@ -2,8 +2,6 @@
 
 A professional collection of PowerShell scripts for **Microsoft Endpoint Configuration Manager** (SCCM / MECM) administration, deployment, customization, and troubleshooting.
 
-Maintained by **M-Endymion**.
-
 ---
 
 ## Folder Structure
