@@ -47,7 +47,7 @@ Comprehensive ConfigMgr client health & repair scripts.
 
 ### **Ubuntu** (New)
 - `Ubuntu-Server-QuickDeploy.sh` — Docker + Portainer + Tailscale + Watchtower + Fail2Ban for homelab servers.
-- 
+
 ### **Utilities**
 - `ConvertFrom-BatchScript.ps1`
 - `Search-EventLog.ps1`
