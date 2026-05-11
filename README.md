@@ -11,6 +11,7 @@ A comprehensive set of PowerShell scripts I’ve built for **Microsoft Endpoint 
 | `scripts/App-Install`     | Application installation and uninstallation scripts          |
 | `scripts/Client-Health`   | ConfigMgr client health checks, repair, and maintenance      |
 | `scripts/OS-Configuration`| OS-level configuration, customization, and hardening         |
+| `scripts/MacOS`           | macOS provisioning, compliance, Intune/Jamf readiness        |
 | `scripts/OSD`             | Operating System Deployment (Task Sequence) scripts          |
 | `scripts/Reporting`       | Reporting and inventory scripts                              |
 | `scripts/SCCM-Automation` | Server-side automation and Status Filter Rule scripts        |
@@ -39,6 +40,9 @@ Comprehensive ConfigMgr client health & repair scripts.
 - `Set-PowerPlan.ps1`
 - `Set-LockScreenImage.ps1`
 - `Replace-Wallpaper.ps1`
+
+### **MacOS** (New)
+- `MacOS-Setup-and-Compliance.ps1` — System info, Homebrew tools, user auditing, M365/Intune readiness, Jamf integration, and professional reports.
 
 ### **Utilities**
 - `ConvertFrom-BatchScript.ps1`
