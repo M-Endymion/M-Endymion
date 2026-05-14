@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/M-Endymion/M-Endymion/main/thumbnail-m-endymion.png" alt="M-Endymion Banner" width="100%" />
+</div>
+
+<br>
+
 # [PowerShell SCCM / MECM Scripts](https://github.com/M-Endymion/powershell-sccm)
 
 A comprehensive set of PowerShell scripts I’ve built for **Microsoft Endpoint Configuration Manager (MECM/SCCM)**. 
