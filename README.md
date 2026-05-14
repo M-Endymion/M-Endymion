@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/M-Endymion/M-Endymion/main/thumbnail-m-endymion.png" alt="M-Endymion Banner" width="100%" />
+  <img src="https://github.com/M-Endymion/powershell-sccm/blob/main/thumbnail.png" alt="M-Endymion Banner" width="100%" />
 </div>
 
 <br>
