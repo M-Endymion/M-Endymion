@@ -4,13 +4,22 @@
 
 <br>
 
-# [PowerShell SCCM / MECM Scripts](https://github.com/M-Endymion/powershell-sccm)
+# PowerShell SCCM / MECM Automation Specialist
 
-A comprehensive set of PowerShell scripts I’ve built for **Microsoft Endpoint Configuration Manager (MECM/SCCM)**. 
+**Building clean, production-ready scripts for Microsoft Endpoint Configuration Manager (MECM/SCCM), hybrid device management, and homelab automation.**
+
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ---
 
-## Folder Structure
+## Featured Repository: [powershell-sccm](https://github.com/M-Endymion/powershell-sccm)
+
+A comprehensive collection of PowerShell scripts for **MECM/SCCM** automation, client health, OSD, compliance, macOS/Intune readiness, and more.
+
+### Folder Structure
 
 | Folder                    | Purpose                                                      |
 |---------------------------|--------------------------------------------------------------|
@@ -18,62 +27,36 @@ A comprehensive set of PowerShell scripts I’ve built for **Microsoft Endpoint 
 | `scripts/Client-Health`   | ConfigMgr client health checks, repair, and maintenance      |
 | `scripts/OS-Configuration`| OS-level configuration, customization, and hardening         |
 | `scripts/MacOS`           | macOS provisioning, compliance, Intune/Jamf readiness        |
-| `scripts/Ubuntu`          | Ubuntu Server quick deployment (Docker, Portainer, Tailscale)|
+| `scripts/Ubuntu`          | Ubuntu Server quick deployment (Docker, Portainer, etc.)     |
 | `scripts/OSD`             | Operating System Deployment (Task Sequence) scripts          |
 | `scripts/Reporting`       | Reporting and inventory scripts                              |
 | `scripts/SCCM-Automation` | Server-side automation and Status Filter Rule scripts        |
 | `scripts/SCCM-Compliance` | Compliance Item (Discovery + Remediation) scripts            |
-| `scripts/SCCM-Queries`    | WQL queries for collections and reports                      |
 | `scripts/Tools`           | Standalone utilities and GUI tools                           |
 | `scripts/Utilities`       | General purpose helper scripts                               |
-| `scripts/Legacy`          | Archived/old scripts (for reference only)                    |
-| `scripts/Templates`       | Script templates and best practice examples                  |
+
+*(Full structure and legacy folders in the repo)*
 
 ---
 
-## Featured Folders & Scripts
+## Featured Scripts & Tools
 
-### **App-Install**
-- `Install-Git.ps1`, `Uninstall-Git.ps1`
-- `Install-7Zip.ps1`
-- `Uninstall-AdobeCreativeCloud.ps1`
-- `Uninstall-DellSupportAssist.ps1`
-- `Remove-NewOutlook.ps1`
-
-### **Client-Health**
-Comprehensive ConfigMgr client health & repair scripts.
-
-### **OS-Configuration**
-- `Set-PowerPlan.ps1`
-- `Set-LockScreenImage.ps1`
-- `Replace-Wallpaper.ps1`
-
-### **MacOS**
-- `MacOS-Setup-and-Compliance.ps1` — System info, Homebrew tools, user auditing, M365/Intune readiness, Jamf integration, and professional reports.
-
-### **Ubuntu** (New)
-- `Ubuntu-Server-QuickDeploy.sh` — Docker + Portainer + Tailscale + Watchtower + Fail2Ban for homelab servers.
-
-### **Utilities**
-- `ConvertFrom-BatchScript.ps1`
-- `Search-EventLog.ps1`
-
-### **Tools**
-- `Start-TSRerunTool.ps1`
-- `Start-BatchInstall.ps1`
+**Client-Health** • Comprehensive health checks & repair (modern replacement for legacy VBS scripts)  
+**App-Install** • Git, 7-Zip, Adobe CC uninstall, Dell SupportAssist, etc.  
+**MacOS** • `MacOS-Setup-and-Compliance.ps1` (system info, Homebrew, M365 readiness, professional reports)  
+**Tools** • `Start-BatchInstall.ps1`, `Start-TSRerunTool.ps1` (GUI)  
+**Ubuntu** • One-click homelab server deploy (Docker + *arr stack ready)
 
 ---
 
-## About the Author
+## About Me
 
-**M-Endymion** (Jason Ray)  
-IT Professional specializing in Microsoft Endpoint Configuration Manager (MECM/SCCM), PowerShell automation, and enterprise deployment solutions.
+**Jason Ray (M-Endymion)**  
+IT Professional with deep expertise in **Microsoft Endpoint Configuration Manager (MECM/SCCM)**, PowerShell automation, cross-platform management (Windows + macOS), and enterprise deployments.
 
-This repository serves as my **professional portfolio** showcasing production-ready scripting work for real-world enterprise environments. It also includes various personal and hobby projects (Docker, automation experiments, etc.) that reflect my continuous learning.
+This GitHub serves as my **professional portfolio** — every script is written for real-world production use with strong logging, error handling, and best practices.
 
 - **LinkedIn**: [Jason Ray](https://www.linkedin.com/in/jason-ray-mecm/)
-- **GitHub Handle**: M-Endymion
+- **Open to opportunities** in Endpoint Management, Automation Engineering, or MECM Administration roles.
 
----
-
-**Last Updated:** May 07, 2026
+**Last Updated:** May 17, 2026
